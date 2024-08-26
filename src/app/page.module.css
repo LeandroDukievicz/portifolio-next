@@ -3,41 +3,41 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
- 
+  align-items: center; 
 }
 
 .boxHome{
-  width: 95%;
+  width: 90%;
   height:80vh;
   background: linear-gradient(to top, #232526, #414345);
   box-shadow: 7px 7px 7px#000000;
   border: none;
+  padding:5px;
 }
 
 .navbar {
   width: 50px;
   height: 100vh;
   display: flex;
-  justify-content: flex-start; /* Alinha os links ao início da navbar */
+  justify-content:flex-start; 
   flex-direction: column;
-  align-items: center; /* Centraliza os links horizontalmente na navbar */
+  align-items: center; 
   margin: 10px;
-  padding: 5px;
+  padding-top: 48px;
 }
 
 .list {
   width: 100%;
   display: flex;
   list-style: none;
-  flex-direction: row; /* Mantém os links em uma coluna */
-  justify-content: flex-start; /* Alinha os links ao topo da lista */
-  align-items: center; /* Centraliza os links horizontalmente */
+  flex-direction: row; 
+  justify-content: flex-start; 
+  align-items: center; 
   writing-mode: vertical-lr;
   text-orientation: upright;
   text-transform: uppercase;
-  margin:10px;
-  font-size: 0.7rem;
+  margin:15px;
+  font-size: 0.6rem;
 }
 
 .link {
@@ -45,10 +45,10 @@
   color: #d5d5d5;
   filter: drop-shadow(2px 2px 2px #000);
   transition: background 1s ease-in-out, color 1s ease-in-out;
-  background: none; /* Nenhum fundo inicialmente */
-  align-items: center; /* Centraliza o texto dentro do link */
-  justify-content: center; /* Centraliza o texto dentro do link */
-  margin-bottom: 10px; /* Espaçamento entre os links */
+  background: none; 
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 25px; 
 }
 
 .link:hover {
