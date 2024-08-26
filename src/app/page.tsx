@@ -20,12 +20,27 @@ export default function Home() {
             <li>
               <Link className={styles.link} href="#">Projetos</Link>
             </li>
-            <li>
-              <Link className={styles.link} href="#">Contato</Link>
-            </li>
           </ul>
         </nav>
+
+        <div className={styles.contentImage}>
+          <div className={styles.imgBox}>
+            <Image 
+              className={styles.img}
+              src="/assets/fotoperfil.svg" // Caminho relativo a partir da pasta public
+              alt="Descrição da imagem" // Descrição alternativa da imagem
+              layout="fill" // Ajusta a imagem para preencher a div
+              objectFit="cover" // Mantém a proporção e cobre a div
+            />
+          </div>
       </div>
+      </div>
+
+     
+
     </section>
+
+    
+
    )
 }    

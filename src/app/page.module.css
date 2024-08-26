@@ -4,26 +4,30 @@
   display: flex;
   justify-content: center;
   align-items: center; 
+  align-content: center;
+  
 }
 
 .boxHome{
-  width: 90%;
+  display: flex;
+  width: 85%;
   height:80vh;
   background: linear-gradient(to top, #232526, #414345);
   box-shadow: 7px 7px 7px#000000;
   border: none;
   padding:5px;
+
 }
 
 .navbar {
-  width: 50px;
-  height: 100vh;
+  width: 5%;
+  height: 80vh;
   display: flex;
   justify-content:flex-start; 
   flex-direction: column;
   align-items: center; 
-  margin: 10px;
-  padding-top: 48px;
+  margin: 15px;
+  padding-top: 93px;
 }
 
 .list {
@@ -36,7 +40,7 @@
   writing-mode: vertical-lr;
   text-orientation: upright;
   text-transform: uppercase;
-  margin:15px;
+  margin:10px;
   font-size: 0.6rem;
 }
 
@@ -48,7 +52,8 @@
   background: none; 
   align-items: center;
   justify-content: center; 
-  margin-bottom: 25px; 
+  margin-bottom: 35px; 
+  font-weight: 700;
 }
 
 .link:hover {
@@ -78,3 +83,17 @@
       -webkit-text-fill-color: transparent;
   }
 }
+
+.contentImage{
+  display: flex;
+  justify-content: center;
+  width:350px;
+  height: 470px;
+  border:none;
+  margin: 10px;
+  margin-top: 75px;
+  background: transparent;
+  filter: drop-shadow(2px 2px 2px #000);
+}
+
+
