@@ -1,0 +1,11 @@
+.description{
+    width: 360px;
+    color: #d5d5d5;
+    filter: drop-shadow(1px 1px 1px #000);
+}
+
+.description p{
+    line-height: 150%;
+    text-align: justify;
+}
+

@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import styles from "./page.module.css";
 import AnimatedLine from '../components/AnimatedLine';
+import { Description } from "@/components/description/page";
+import Contact from "@/components/contact/page";
 
 export default function Home() {
   return (
@@ -42,6 +45,8 @@ export default function Home() {
             <AnimatedLine  />
             <h1 className={styles.name}>Leandro Dukiévicz</h1>
             <h2 className={styles.JobName}>Desenvolvedor Front End</h2>
+            <Description />
+            <Contact />
           </div>
       </div>
 
