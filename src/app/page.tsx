@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
+import AnimatedLine from '../components/AnimatedLine';
 
 export default function Home() {
   return (
@@ -25,18 +26,26 @@ export default function Home() {
 
         <div className={styles.contentImage}>
           <div className={styles.imgBox}>
+           
             <Image 
               className={styles.img}
-              src="/assets/fotoperfil.svg" // Caminho relativo a partir da pasta public
-              alt="Descrição da imagem" // Descrição alternativa da imagem
-              layout="fill" // Ajusta a imagem para preencher a div
-              objectFit="cover" // Mantém a proporção e cobre a div
+              src="/assets/fotoperfil.svg" 
+              alt="foto" 
+              layout="fill" 
+              objectFit="cover" 
             />
           </div>
+        
+
       </div>
+          <div className={styles.article}>
+            <AnimatedLine   />
+            <h1 className="styles.name">Leandro Dukiévicz</h1>
+          </div>
       </div>
 
      
+      
 
     </section>
 

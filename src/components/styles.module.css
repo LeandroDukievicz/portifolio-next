@@ -1,0 +1,5 @@
+/* components/AnimatedLine.module.css */
+.animatedLine {
+    transition: all 3s ease;
+  }
+  

@@ -1,3 +1,5 @@
+@import url(../../src/app/styles/font.css);
+
 .containerHome{
   width: 100%;
   height: 100vh;
@@ -27,7 +29,7 @@
   flex-direction: column;
   align-items: center; 
   margin: 15px;
-  padding-top: 93px;
+  padding-top: 83px;
 }
 
 .list {
@@ -54,6 +56,7 @@
   justify-content: center; 
   margin-bottom: 35px; 
   font-weight: 700;
+  
 }
 
 .link:hover {
@@ -61,6 +64,10 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-text-animation 3s infinite alternate;
+  border: 1px solid; 
+  border-image: linear-gradient(to bottom, cyan, magenta) 1;
+  border-radius: 5px;
+  padding:5px;
 }
 
 @keyframes gradient-text-animation {
@@ -91,9 +98,14 @@
   height: 470px;
   border:none;
   margin: 10px;
-  margin-top: 75px;
+  margin-top: 66px;
   background: transparent;
   filter: drop-shadow(2px 2px 2px #000);
+}
+
+.name{
+  font-family: 'OriginTech', Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
