@@ -1,4 +1,4 @@
-// components/AnimatedLine.tsx
+
 "use client";
 
 import React, { useEffect, useRef } from 'react';
@@ -22,8 +22,8 @@ const AnimatedLine: React.FC = () => {
       }
     };
 
-    const interval = setInterval(animateGradient, 2000);
-    animateGradient(); // Start the animation immediately
+    const interval = setInterval(animateGradient, 10000);
+    animateGradient(); 
 
     return () => clearInterval(interval);
   }, []);

@@ -39,8 +39,9 @@ export default function Home() {
 
       </div>
           <div className={styles.article}>
-            <AnimatedLine   />
-            <h1 className="styles.name">Leandro Dukiévicz</h1>
+            <AnimatedLine  />
+            <h1 className={styles.name}>Leandro Dukiévicz</h1>
+            <h2 className={styles.JobName}>Desenvolvedor Front End</h2>
           </div>
       </div>
 
