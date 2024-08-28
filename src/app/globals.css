@@ -11,7 +11,7 @@
 }
 
 body{
-  background: linear-gradient(to bottom, #232526, #414345);
+  background: linear-gradient(to bottom, #1e1e1e, #414345);
   min-height: 100%;
   background-attachment: fixed;
   background-size: cover;

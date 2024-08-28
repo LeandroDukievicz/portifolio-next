@@ -29,7 +29,7 @@ const AnimatedLine: React.FC = () => {
   }, []);
 
   return (
-    <svg className={styles.animatedLine} width="100%" height="3px">
+    <svg className={styles.animatedLine} width="100%" height="3px" >
       <defs>
         <linearGradient id="gradient" ref={gradientRef} x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="cyan" />
